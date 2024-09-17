@@ -10,13 +10,15 @@
 - [Data Sources](#data-sources)
 
 ## Overview
-This project is a data analysis and visualization project focused on e-commerce public data. It includes code for data wrangling, exploratory data analysis (EDA), and a Streamlit dashboard for interactive data exploration. This project aims to analyze data on the E-Commerce Public Dataset.
+This project focuses on data analysis and visualization of public e-commerce data. It includes code for data wrangling, exploratory data analysis (EDA), and an interactive dashboard built with Streamlit. The goal is to analyze the E-Commerce Public Dataset.
 
 ## Project Structure
 - `dashboard/`: This directory contains dashboard.py which is used to create dashboards of data analysis results.
 - `data/`: Directory containing the raw CSV data files.
 - `notebook.ipynb`: This file is used to perform data analysis.
 - `README.md`: This documentation file.
+- `requirement.txt`: This file containing various libraries used in the data analysis process. 
+- `url.txt`: This file containing Uniform Resource Locators (URLs) for the streamlit app dashboard. 
 
 ## Installation
 1. Clone this repository to your local machine:
@@ -46,4 +48,4 @@ streamlit run dashboard.py
 Access the dashboard in your web browser at `http://localhost:8501`.
 
 ## Data Sources
-The project uses E-Commerce Public Dataset from [Belajar Analisis Data dengan Python Final Project](https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view) offered by [Dicoding](https://www.dicoding.com/).
+The project uses E-Commerce Public Dataset from [Proyek Akhir Belajar Analisis Data dengan Python](https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view) offered by [Dicoding](https://www.dicoding.com/).
