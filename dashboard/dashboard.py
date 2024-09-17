@@ -87,6 +87,7 @@ sns.lineplot(
 ax.tick_params(axis="x", rotation=45)
 ax.tick_params(axis="y", labelsize=15)
 st.pyplot(fig)
+plt.tight_layout()
 
 # Customer Spend Money
 st.subheader("Customer Spend Money")
@@ -113,6 +114,7 @@ sns.lineplot(
 ax.tick_params(axis="x", rotation=45)
 ax.tick_params(axis="y", labelsize=15)
 st.pyplot(fig)
+plt.tight_layout()
 
 # Order Items
 st.subheader("Order Items")
@@ -146,6 +148,7 @@ ax[1].tick_params(axis='y', labelsize=55)
 ax[1].tick_params(axis='x', labelsize=50)
 
 st.pyplot(fig)
+plt.tight_layout()
 
 # Review Score
 st.subheader("Review Score")
@@ -178,6 +181,7 @@ for i, v in enumerate(review_score.values):
     ax.text(i, v + 5, str(v), ha='center', va='bottom', fontsize=12, color='black')
 
 st.pyplot(fig)
+plt.tight_layout()
 
 # Customer Demographic
 st.subheader("Customer Demographic")
@@ -199,6 +203,7 @@ with tab1:
     plt.ylabel("Number of Customers")
     plt.xticks(fontsize=12)
     st.pyplot(fig)
+    plt.tight_layout()
 
 with tab2:
     map_plot.plot()
