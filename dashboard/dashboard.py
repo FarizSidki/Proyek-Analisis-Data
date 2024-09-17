@@ -126,7 +126,7 @@ with col2:
     avg_items = sum_order_items_df["product_count"].mean()
     st.markdown(f"Average Items: **{avg_items}**")
 
-fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(45, 25))
+fig, ax = plt.subplots(nrows=1, ncols=2, figsize=(12, 6))
 
 sns.barplot(x="product_count", y="product_category_name_english", data=sum_order_items_df.head(5), palette="viridis", ax=ax[0])
 ax[0].set_ylabel(None)
